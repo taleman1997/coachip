@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ahb2apb_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ahb2apb_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/ahb_hclk" type="logic">
+      <obj_property name="ElementShortName">ahb_hclk</obj_property>
+      <obj_property name="ObjectShortName">ahb_hclk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/apb_pclk" type="logic">
+      <obj_property name="ElementShortName">apb_pclk</obj_property>
+      <obj_property name="ObjectShortName">apb_pclk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/ahb_hrstn" type="logic">
+      <obj_property name="ElementShortName">ahb_hrstn</obj_property>
+      <obj_property name="ObjectShortName">ahb_hrstn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/ahb_hsel" type="logic">
+      <obj_property name="ElementShortName">ahb_hsel</obj_property>
+      <obj_property name="ObjectShortName">ahb_hsel</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/ahb_htrans" type="array">
+      <obj_property name="ElementShortName">ahb_htrans[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ahb_htrans[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/ahb_haddr" type="array">
+      <obj_property name="ElementShortName">ahb_haddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ahb_haddr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/ahb_hwdata" type="array">
+      <obj_property name="ElementShortName">ahb_hwdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ahb_hwdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/ahb_hwrite" type="logic">
+      <obj_property name="ElementShortName">ahb_hwrite</obj_property>
+      <obj_property name="ObjectShortName">ahb_hwrite</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/ahb_hready" type="logic">
+      <obj_property name="ElementShortName">ahb_hready</obj_property>
+      <obj_property name="ObjectShortName">ahb_hready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/inst_ahb2apb/ahb_write_ready" type="logic">
+      <obj_property name="ElementShortName">ahb_write_ready</obj_property>
+      <obj_property name="ObjectShortName">ahb_write_ready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/inst_ahb2apb/fifo_cmd_empty" type="logic">
+      <obj_property name="ElementShortName">fifo_cmd_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_cmd_empty</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/inst_ahb2apb/apb_ready_to_update" type="logic">
+      <obj_property name="ElementShortName">apb_ready_to_update</obj_property>
+      <obj_property name="ObjectShortName">apb_ready_to_update</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/inst_ahb2apb/fifo_cmd_read_enable" type="logic">
+      <obj_property name="ElementShortName">fifo_cmd_read_enable</obj_property>
+      <obj_property name="ObjectShortName">fifo_cmd_read_enable</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/inst_ahb2apb/ahb_read_ready" type="logic">
+      <obj_property name="ElementShortName">ahb_read_ready</obj_property>
+      <obj_property name="ObjectShortName">ahb_read_ready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/inst_ahb2apb/fifo_data_afull" type="logic">
+      <obj_property name="ElementShortName">fifo_data_afull</obj_property>
+      <obj_property name="ObjectShortName">fifo_data_afull</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/inst_ahb2apb/async_fifo_cmd_inst/fifo_used_write" type="array">
+      <obj_property name="ElementShortName">fifo_used_write[2:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_used_write[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ahb2apb_tb/inst_ahb2apb/async_fifo_cmd_inst/read_addr" type="array">
+      <obj_property name="ElementShortName">read_addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
